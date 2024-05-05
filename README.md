@@ -23,7 +23,7 @@ The introduction of [Streamlit](https://streamlit.io/) transforms this applicati
 To experience the app:
 
 - **Configure Environment**: Set up the environment variables for [Serper](https://serper.dev/). Use the `secrets.example` as a guide to add your keys then move that file (`secrets.toml`) to `.streamlit/secrets.toml`.
-- **GoogleAPI**: Mention your google_api_key in the blog_agents.py and blogpost.py, at the following location:
+- **GoogleAPI & SerperAPI**: Mention your google_api_key and serper_api_key in the blog_agents.py and blogpost.py, at the following location:
  llm = ChatGoogleGenerativeAI(
     model="gemini-pro",
     verbose=True,
