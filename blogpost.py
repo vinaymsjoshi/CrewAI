@@ -20,7 +20,7 @@ class blogposts:
         )
 
         search_tool = SerperDevTool()
-        os.environ["SERPER_API_KEY"] = "68ec4d0a6c793720ae4ae0dddcea0fed02897da1"
+        os.environ["SERPER_API_KEY"] = "API_KEY_HERE"
 
         # Initializing Agents
         researcher = Agent(
